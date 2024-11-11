@@ -1,0 +1,16 @@
+# Kotlin/Java build files
+/build/
+.gradle/
+out/
+
+# IntelliJ IDEA files
+/.idea/
+*.iml
+
+# MacOS files
+.DS_Store
+
+# Logs
+*.log
+
+# Other files to ignore

@@ -1,9 +1,11 @@
 package models
 
+import kotlinx.serialization.Serializable
 
+@Serializable
 enum class ItemType{
     WEAPON,
     ARMOR,
     CONSUMABLE,
-    RARE
+    KEY_ITEM
 }

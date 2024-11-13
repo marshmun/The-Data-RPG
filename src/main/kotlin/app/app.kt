@@ -67,7 +67,7 @@ fun main() {
                     println("Your inventory is empty.")
                 } else {
                     println("Enter the number of the item you want to use:")
-                    inventoryService.listInventoryDetailed(player)
+                    inventoryService.listInventory(player)
                     val itemChoice = scanner.nextLine().toIntOrNull()
                     if (itemChoice != null && itemChoice in 1..player.inventory.size) {
                         val item = player.inventory[itemChoice - 1]
